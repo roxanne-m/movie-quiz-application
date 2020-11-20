@@ -94,7 +94,7 @@ const store = {
       let openingMain = (`<div>
       <div class="box">
       <h1>Famous Movie Quotes Quiz</h1>
-      <img src="movieImages/Movie-icon.jpg" alt="Popcorn, movie reel, 3D glasses, and a clapperboard">
+      <img src="movieImages/movie-popcorn.jpg" alt="Popcorn, movie reel, 3D glasses, and a clapperboard">
       <h2> This is a quiz on movie quotes!</h2>
       <h3>You need to match the given quote to the proper movie.</h3>
       <h3>Press the "Start Quiz" button when you're ready to begin.</h3>
