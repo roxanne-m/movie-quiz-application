@@ -1,0 +1,109 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+body{
+  background-color: red;
+}
+
+/* Creates a box around the quiz  */
+.box{
+  
+  margin: 25px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 20px;
+ 
+} 
+/* Centering the content of the pages being displayed */
+.mainPage, .correctPage, .wrongPage{
+  height: 100%; 
+  width: 100%; 
+  display: flex; 
+  position: fixed; 
+  align-items: center; 
+  justify-content: center;
+}
+
+/* Centering answer choices in the middle */
+.middle{
+  display: flex;
+  align-items: center;
+}   
+
+
+
+/* Space between radio button and answer choices */
+input{
+  margin-right: 10px;
+}
+
+/* Formating the text styles for all headings and paragraphs */
+h1, h2, h3, p{
+font-family: 'Times New Roman', Times, Serif; 
+color: black;
+text-align: center;
+}
+
+/* Styles the paragraph further */
+p{
+  margin: 0, 20px, 0, 20px;
+  padding: 15px;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  margin: 0, 20px, 0, 20px;
+
+}
+
+.item{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+
+/* Creates a border box around the question */
+.isolate{
+  height: 100%;  
+  padding: 20px;
+  border: 3px solid black;
+}
+
+/* Styles the images */
+img{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 50%;
+    
+    
+}
+
+/*Media query for desktop */
+@media all and (min-width: 600px){
+
+  .group{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .middle{
+    display: flex;
+    text-justify: center;
+    margin-left: 5%;
+    
+  }
+
+ 
+}
+
+
+
